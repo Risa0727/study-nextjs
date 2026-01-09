@@ -1,0 +1,68 @@
+/* app/page.module.css */
+/* Home */
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fafafa;
+}
+
+.main {
+  min-height: 100vh;
+  max-width: 768px;
+  width: 100%;
+  padding: 8rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.buttonPrimary {
+  height: 48px;
+  width: 158px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 9999px;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.buttonPrimary:hover {
+  background: #383838;
+}
+
+.buttonSecondary {
+  height: 48px;
+  width: 158px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  color: #111;
+  text-decoration: none;
+  transition: background 0.2s ease, border 0.2s ease;
+}
+
+.buttonSecondary:hover {
+  background: rgba(0, 0, 0, 0.04);
+  border-color: transparent;
+}
